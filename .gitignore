@@ -3,3 +3,6 @@
 ################################################################################
 
 /SandboxTune/.vs/SandboxTune
+/SandboxTune/SandboxTune/Client/obj
+/SandboxTune/SandboxTune/Server/obj
+/SandboxTune/SandboxTune/Shared/obj
