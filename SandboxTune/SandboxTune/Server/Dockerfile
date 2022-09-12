@@ -7,7 +7,8 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR "/src"
-COPY ["SandboxTune/Server/SandboxTune.Server.csproj", "SandboxTune/Server/"]
+COPY ["SandboxTune.Server.csproj", "SandboxTune/Server/"]
+#WORKDIR "/src"
 #COPY ["SandboxTune/Client/SandboxTune.Client.csproj", "SandboxTune/Client/"]
 #COPY ["SandboxTune/Shared/SandboxTune.Shared.csproj", "SandboxTune/Shared/"]
 RUN dotnet restore "SandboxTune/Server/SandboxTune.Server.csproj"
