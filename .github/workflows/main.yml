@@ -39,6 +39,6 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: .
-          file: SandboxTune/Dockerfile
+          file: ./SandboxTune/SandboxTune/Server/
           push: true
           tags: ${{ secrets.DOCKER_HUB_USERNAME }}/sandboxtune.server1:latest
