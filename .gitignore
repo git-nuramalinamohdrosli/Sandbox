@@ -6,3 +6,7 @@
 /SandboxTune/SandboxTune/Client/obj
 /SandboxTune/SandboxTune/Server/obj
 /SandboxTune/SandboxTune/Shared/obj
+/SandboxTune/.vs/ProjectEvaluation
+/SandboxTune/SandboxTune/Client/bin/Debug/net6.0
+/SandboxTune/SandboxTune/Server/bin/Debug/net6.0
+/SandboxTune/SandboxTune/Shared/bin/Debug/net6.0
